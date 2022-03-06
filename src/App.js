@@ -11,7 +11,7 @@ function App() {
   const [notes, setNotes] = useState([]);
   const [formData, setFormData] = useState(initialFormState);
 
-  useEffect(() => {
+  useEffect(() => { 
     fetchNotes();
   }, []);
 
